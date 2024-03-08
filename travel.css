@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0; 
+} 
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+}
+.nav-list{
+    width: 70%;
+    /* background-color: blueviolet; */
+display: flex;
+align-items: center;
+}
+.nav-list li{
+    
+    list-style: none;
+    padding: 15px 23px;
+}
+.nav-list li a{
+    
+    text-decoration: none;
+    color: rgb(114, 110, 110);
+}
+    
+.nav-list li a:hover{
+  
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+}
+.rightnav{
+    /* background-color: chocolate; */
+    width: 25%;
+    
+   padding: 0 30px ;
+}
+#search{
+    padding: 3px;
+    font-size: 14px;
+    border: 3px solid rgb(42, 46, 42);
+    border-radius: 8px;
+    margin: auto;
+}
+.background{
+    background: rgba(0,0,0,0.7)url("https://img.freepik.com/free-vector/indian-set-temples-architecture_25030-39369.jpg");
+    background-size: cover;
+    
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secondhalf{
+    width: 70%;
+}
+.secondhalf img{
+    width: 100%;
+    border: 6px solid black;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.text-big{
+    font-size: 35px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.text-small{
+    font-size: 15px;
+}
+
+.btn{
+    padding: 9px 18px;
+    margin: 9px 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.lie{
+    text-align: center;
+    color: midnightblue;
+    font-size: 50px;
+}
+.btn-small{
+    padding: 4px 12px;
+    vertical-align: middle;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+button:hover{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+.section{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+   padding: 10px;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.para{
+    padding:20px ;
+}
+.sectiontag{
+    padding: 15px 0;
+}
+.sectionsubtag{
+    font-family:serif;
+}
+.thumbnail img{
+    /* padding: 10px 30px; */
+    border: 3px solid black;
+    border-radius: 30px;
+    
+   
+}
+.contact{
+    background-color: #eceaea;
+    height: 600px;
+    font-family: cursive;
+    
+}
+.text-center{
+    text-align: center;
+    padding: 20px;
+}
+.center-box{
+    max-width: 60%;
+    margin: 20px auto;
+}
+.center-box-input{
+    margin: 9px 0;
+    width: 100%;
+    
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 3px 9px;
+}
+.btn-dark{
+color: black;
+border: 3px solid grey;
+border-radius: 5px;
+font-size: 13px;
+margin: 4px ;
+
+    padding: 3px;
+}
+.footer{
+    text-align: center;
+    padding: 30px 0;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(60, 58, 58);
+   color: white;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 14px;
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+    
+}
